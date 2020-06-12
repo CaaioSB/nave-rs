@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap";
+/* Reseta o HTML */
+
+html, body {
+  font-family: 'Source Sans Pro';
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: 0px;
+  color: #FFF;
+  background-color: #313131;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-areas: 'header header header' 'main main main' 'footer footer footer';
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+  font-weight: 600;
+  font-size: 2vmax;
+  background-color: #212121;
+  height: 100%;
+  grid-column: 1, 1;
+  display: flex;
+  grid-area: header;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 80vh;
+  grid-area: main;
+  grid-column: 1 1;
+}
+
+footer {
+  background-color: #212121;
+  height: 10vh;
+  display: flex;
+  grid-area: footer;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0px;
+  min-height: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFF;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #715bac;
+}
+
+.post h6 {
+  margin-bottom: 25px !important;
+}
+
+.card {
+  background-color: #424242;
+  border: #212121 solid 1px;
+  box-shadow: 5px 5px 3px rgb(33, 33, 33, 0.3);
+  border-radius: 5px;
+  margin: 20px 0px 20px 0px;
+  grid-column: 2/3;
+}
+
+.card hr {
+  border: #313131 solid 1px;
+}
+
+.card h6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card .post {
+  margin: 20px;
+}
+
+.post-comment {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.post-comment h4, h5 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
