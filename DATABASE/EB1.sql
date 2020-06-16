@@ -1,6 +1,8 @@
 -- NAVE.RS API DATABASE
--- DROP TABLE `POST`
--- DROP TABLE `COMMENT`
+-- DROP TABLE `posts`
+-- DROP TABLE `comments`
+-- DELETE FROM `posts`
+-- DELETE FROM `comments` 
 
 -- USA O BANCO DE DADOS
 USE sql10348720;
@@ -19,7 +21,7 @@ id` INTEGER NOT NULL auto_increment ,
 -- CRIA A TABELA COMMENT
 SELECT * FROM `comments`;
 CREATE TABLE IF NOT EXISTS `comments` (
-`id` INTEGER , 
+`id` INTEGER NOT NULL auto_increment, 
 `message` VARCHAR(255), 
 `post_id` INTEGER,
  `createdAt` DATETIME NOT NULL, 
