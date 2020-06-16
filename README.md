@@ -64,7 +64,7 @@ Para ver os comentários de determinada postagem, clique em `Comentários` ou `C
 ## Preparação de ambiente para o exercício de backend
 [x] Tenha o MySQL instalado em sua máquina.
 
-[~] Caso não tenha o MySQL ou obtenha erros envie um e-mail para [mim](href="mailto:caio_silvabatista@hotmail.com") solicitando acesso ao banco de dados MySQL utilizado no desenvolvimento.
+[~] Caso não tenha o MySQL ou obtenha erros envie um e-mail para [eu](href="mailto:caio_silvabatista@hotmail.com"), assim envio os dados de acesso ao banco de dados MySQL utilizado no desenvolvimento.
 
 Abra o seu terminal de preferência e execute os seguintes passos:
 
