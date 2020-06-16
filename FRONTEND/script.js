@@ -53,10 +53,10 @@ function commentHtml(postId, commentName, commentEmail, commentBody) {
 }
 
 function showComment(postId) {
-  if (document.getElementById(`comment-${postId}`).hasAttribute("hidden")){
+  if (document.getElementById(`comment-${postId}`).hasAttribute("hidden")) {
     document.getElementById(`comment-${postId}`).removeAttribute("hidden");
   }
-  else{
+  else {
     document.getElementById(`comment-${postId}`).setAttribute("hidden", "hidden");
   }
 }
