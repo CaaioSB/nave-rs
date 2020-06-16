@@ -1,0 +1,5 @@
+-- USA O BANCO DE DADOS
+USE sql10348720;
+
+-- SELECIONA TODAS AS POSTAGENS E A QUANTIDADE DE COMENTÁRIOS DA MESMA.
+SELECT p.title, p.body, (SELECT COUNT(*) FROM `comments` WHERE id = p.id) comments_quantity FROM `posts` p

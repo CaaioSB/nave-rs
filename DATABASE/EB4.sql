@@ -1,0 +1,5 @@
+-- USA O BANCO DE DADOS
+USE sql10348720;
+
+-- BUSCANDO TODAS AS POSTAGENS E SEUS RESPECTIVOS COMENTÁRIOS
+SELECT * FROM `posts` INNER JOIN `comments` ON `posts`.id = `comments`.post_id; 
