@@ -2,10 +2,10 @@
 -- DROP TABLE `posts`
 -- DROP TABLE `comments`
 -- DELETE FROM `posts`
--- DELETE FROM `comments` 
+-- DELETE FROM `comments`
 
 -- USA O BANCO DE DADOS
-USE sql10348720;
+USE navers;
 
 -- CRIA A TABELA POST
 SELECT * FROM `posts`;
