@@ -10,7 +10,7 @@ Ou realize os seguintes passos:
 
 Navegue até a pasta que deseja clonar o repositório.
 ```bash
-cd /home/user/navers/caaiosb
+cd ...\nave-rs\caaiosb
 ```
 Clone o repositório utilizando a seguinte linha de comando:
 ```bash
@@ -42,9 +42,9 @@ E para você executar determinado exercício simplesmente abra o arquivo `script
 
 ## Uso do Frontend
 
-Navegue até a pasta FRONTEND.
+Navegue até a pasta `FRONTEND` localizada na raíz do repositório (`nave-rs`)
 ```bash
-cd FRONTEND
+cd ...\nave-rs\FRONTEND
 ```
 E então abra o arquivo `index.html` (esta linha de comando pode gerar resultados diferentes caso o programa padrão para abrir arquivos de extensão .html não for um navegador).
 ```bash
@@ -76,7 +76,7 @@ Abra o seu terminal de preferência e execute os seguintes passos:
 
 Navegue até a pasta `BACKEND` localizada na raíz do repositório (`nave-rs`)
 ```bash
-cd BACKEND
+cd ...\nave-rs\BACKEND
 ```
 Instala todas as dependencias.
 ```node
@@ -102,9 +102,9 @@ DB: "navers",
 ```
 
 ### Execute o servidor.
-Vá até a pasta raíz do BACKEND
+Navegue até a pasta `BACKEND` localizada na raíz do repositório (`nave-rs`)
 ```bash
-cd ../nave-rs/BACKEND
+cd ...\nave-rs\BACKEND
 ```
 E então inicialize o servidor utilizando
 ```bash
